@@ -9,9 +9,8 @@ void setup(){
 }
 
 void draw(){
-  for (float j = 0; j <= limit; j += 0.001){
-    point(map(j,0,limit,10,width-10),zeta(j));
-  }
+  for (float j = 0; j <= limit; j += 0.001)
+    point(map(j,0,limit,10,width-10), zeta(j));
 }
 
 float zeta(float s){
